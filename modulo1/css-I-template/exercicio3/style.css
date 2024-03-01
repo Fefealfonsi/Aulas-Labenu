@@ -1,0 +1,60 @@
+/* Resumo CSS
+Unidades de medida 
+
+-absoluta
+px
+pt
+cm
+relativa
+vw-> relativo à latgura da tela
+vh->relativoaltura da tela
+%->
+unidade relativa textos
+rem
+em
+
+*/
+
+*{
+  padding: 0;
+  margin: 0;
+}
+header{
+  font-size: 20px;
+}
+html{
+  font-size: 30px;
+}
+h1{
+  font-size: 2rem;
+}
+img{
+ width: 80%; 
+}
+main{
+  font-family: Arial, Helvetica, sans-serif;
+  width: 1000px;
+  background-color: bisque;
+  height: 100px;
+
+}
+
+section{
+  float: left;
+/*float é uma propriedade que permite deixar elementos à direita ou à esquerda da tela. Não costuma ser usado. Aqui, é usado apenas para ilustrar diferenças.*/
+  width: 50%;
+  padding: 40px;
+  background-color: aqua;
+}
+
+aside{
+  float:right;
+ /*float é uma propriedade que permite deixar elementos à direita ou à esquerda da tela. Não costuma ser usado. Aqui, é usado apenas para ilustrar diferenças.*/
+  padding: 20px;
+  width: 20%;
+  background-color: aquamarine;
+}
+
+article{
+  margin: 10px 0;
+}

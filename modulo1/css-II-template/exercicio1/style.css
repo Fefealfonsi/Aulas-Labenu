@@ -1,0 +1,32 @@
+/* Resumo
+
+Combinadores
+Agrupamento de seletores
+h1, h2, p, span{
+    propriedadeCss: valor;
+}
+Seletores compostos
+
+tag.class{
+     propriedadeCss: valor;
+}
+tag#id{
+     propriedadeCss: valor;
+}
+
+*/
+
+h1,h2,h3,h4,h5,h6,p{
+    color:orange;
+}
+
+h2.texto-com-background{
+    background-color: yellow;
+}
+h2#texto-com-outra-cor{
+    color: green;
+}
+
+body h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

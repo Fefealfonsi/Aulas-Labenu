@@ -1,0 +1,28 @@
+main{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+
+section{
+    border: 1px solid black;
+    height: 200px;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+
+}
+
+@media screen and (max-device-width : 480px){
+    main{
+        grid-template-columns: 1fr;
+    }
+
+    section{
+        align-items:start;
+        color: red;
+        height: 100px;
+
+    }
+    
+}

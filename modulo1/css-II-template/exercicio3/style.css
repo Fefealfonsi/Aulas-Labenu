@@ -1,0 +1,31 @@
+/* RESUMO
+:hover-> ao passar o mouse encima ele muda as caracteristicas do elemento
+:active->ao clicar no elemento ele muda as caracteristicas 
+
+text-align - se aplica no pai do elemento inline a ser centralizado
+margin:0 auto - se aplica no pai do elemento block a ser centralizado, desdeque o elemento pai tenha uma largura definida.
+*/
+
+button{
+    border: none;
+    border-radius: 50px;
+    height: 100px;
+    width: 300px;
+    background-color: aquamarine;
+    text-align: center;
+}
+
+button:hover{
+    background-color: tomato;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+button:active{
+    background-color: pink;
+    color:tomato;
+}
+
+body{
+    text-align: center;
+}

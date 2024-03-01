@@ -1,0 +1,38 @@
+/* Resumo de CSS
+link
+seletores
+propriedades de fonte
+cor de fundo
+*/
+
+*{
+    margin: 10px;
+    
+}
+
+
+#titulo-importante{
+    background-color: blue;
+    color: white;
+}
+
+.sub-titulo{
+    background-color: yellow;
+}
+
+section{
+    background-color: green;
+}
+
+.titulo-secao{
+    color: white;
+}
+.texto-generico{
+    font-size: 18px;
+}
+footer{
+    background-color: black;
+}
+.titulo-pouco-importante{
+    color: white;
+}

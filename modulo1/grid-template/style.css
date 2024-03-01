@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+  
+    display: grid;
+    grid-template-rows: 10vh 1fr 10vh;
+}
+header{
+    background-color: antiquewhite;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* height: 15vh; */
+    align-items: center;
+
+}
+
+.logout{
+    justify-self: end;
+}
+main{
+    background-color: aqua;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+aside{
+    background-color: cadetblue;
+}
+.gallery{
+    display: grid;
+    grid-template-columns:repeat(5,1fr);
+    justify-items: center;
+    margin-top:20px;
+}
+footer{
+    background-color: aquamarine;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}

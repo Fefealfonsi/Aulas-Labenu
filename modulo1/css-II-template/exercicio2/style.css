@@ -1,0 +1,28 @@
+/* RESUMO
+para fixar um elemento usamos position:fixed
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    border: 1px solid green;
+    height: 10vh;
+    position: fixed;
+    top:0px;
+    background-color: blue;
+    width: 100vw;
+
+}
+main{
+    background-color: aquamarine;
+    height: 150vh;
+    margin-top: 10vh;
+
+}
+footer{
+    border: 1px solid red;
+    height: 10vh;
+}

@@ -1,0 +1,30 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+
+.imagem-carro{width: 10rem;}
+
+.logotipo{width: 5rem;}
+
+header{
+  background-color: rgb(247, 213, 151);
+}
+
+footer{
+  background-color: lightgrey;
+}
+
+.redes{
+  margin: 0 10px;
+  text-decoration: none;
+  color: black
+}
+.redes:hover{
+  color: orangered;
+}
+
+.garagem{
+  background-color: azure;
+}
